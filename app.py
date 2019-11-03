@@ -37,6 +37,7 @@ def add(insert):
     mycursor.close()
     mydb.close()
     return render_template('about.html')
+#work in progresss
 
 if __name__=='__main__': 
     app.run(debug=True)
